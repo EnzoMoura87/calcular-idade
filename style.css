@@ -40,3 +40,18 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+@media (max-width: 420px) {
+    body {
+        font: normal 12pt arial;
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    section {
+        width: 370px;
+        margin: 5px;
+    }
+}
